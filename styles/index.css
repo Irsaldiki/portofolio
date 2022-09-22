@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
+.navbar {
+  background-color: #292828;
+  text-decoration: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navbar ul {
+  box-sizing: border-box;
+  display: flex;
+  list-style: none;
+  width: 35%;
+  padding: 0.3rem 1em;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5em 0;
+}
+.navbar ul li a:hover {
+  border: solid black 1px;
+  color: #FF8D29;
+  border-radius: 10px;
+  background-color: #161616;
+}
+
+.about-me {
+  position: relative;
+  box-sizing: border-box;
+  height: 70vh;
+  width: 100%;
+  background-color: #161616;
+}
+.about-me .left {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.about-me .right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-image: url(/asset/diki.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 85% 70%;
+}
+.about-me .right img {
+  height: auto;
+  width: auto;
+  position: relative;
+  top: -10rem;
+}
+.about-me .center {
+  text-align: center;
+}
+.about-me .center h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #FF8D29;
+}
+.about-me .center p {
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  padding: 3em;
+}
+.about-me .center button {
+  padding: 0.1em 0.8em;
+  background-color: transparent;
+  border: #FF8D29 solid;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.about-me .desc {
+  padding-top: 10%;
+}
+
+.portofolio {
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+.portofolio .left-p {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(/asset/pbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portofolio .right-p {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: white;
+}
+.portofolio .center-p {
+  padding: 5em;
+}
+.portofolio .center-p h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #161616;
+}
+.portofolio .center-p p {
+  color: #FF8D29;
+  font-size: 2rem;
+}
+.portofolio .center-p button {
+  padding: 0.1em 0.8em;
+  background-color: transparent;
+  border: #FF8D29 solid 2px;
+  border-radius: 10px;
+  color: #FF8D29;
+  margin-top: 5rem;
+  cursor: pointer;
+  font-size: large;
+}
+.portofolio .center-p button a {
+  text-decoration: none;
+  color: #FF8D29;
+}
+
+.certificate {
+  background-color: #161616;
+  color: #FF8D29;
+}
+.certificate .social-media {
+  border-radius: 100%;
+  border: solid #FF8D29;
+  padding: 10px;
+}
+.certificate .social-media path {
+  fill: #FF8D29 !important;
+}
+.certificate .social-media .med {
+  fill: #161616 !important;
+}
+.certificate .social-media:hover {
+  border: solid white !important;
+}
+.certificate .social-media:hover path {
+  fill: white !important;
+}
+.certificate .social-media:hover .med {
+  fill: #161616 !important;
+}
+.certificate .social-media:hover rect {
+  fill: white !important;
+}
+.certificate .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 30px;
+  display: block !important;
+  border: 0px solid black;
+}
+.certificate .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 30px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kadwa", serif;
+}
+
+body {
+  background-color: #161616;
+}
+
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=index.css.map */
