@@ -24,7 +24,7 @@
 }
 .navbar ul li a:hover {
   border: solid black 1px;
-  color: #FF8D29;
+  color: #FF8D29 !important;
   border-radius: 10px;
   background-color: #161616;
 }
@@ -88,43 +88,27 @@
 }
 
 .portofolio {
-  position: relative;
-  box-sizing: border-box;
-  height: 100vh;
-  width: 100%;
-  top: 0;
+  height: 90vh;
 }
 .portofolio .left-p {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  left: 0;
-  top: 0;
+  height: 90vh;
   background-image: url(/asset/pbg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .portofolio .right-p {
-  position: absolute;
-  width: 40%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  background-color: white;
+  height: 90vh;
 }
-.portofolio .center-p {
-  padding: 5em;
-}
-.portofolio .center-p h1 {
-  font-size: 6rem;
+.portofolio h1 {
+  font-size: 5rem;
   font-weight: 400;
   color: #161616;
 }
-.portofolio .center-p p {
+.portofolio p {
   color: #FF8D29;
   font-size: 2rem;
 }
-.portofolio .center-p button {
+.portofolio button {
   padding: 0.1em 0.8em;
   background-color: transparent;
   border: #FF8D29 solid 2px;
@@ -134,7 +118,7 @@
   cursor: pointer;
   font-size: large;
 }
-.portofolio .center-p button a {
+.portofolio button a {
   text-decoration: none;
   color: #FF8D29;
 }
@@ -181,16 +165,142 @@
   border: 0px solid black;
 }
 
-* {
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
   padding: 0;
   margin: 0;
   font-family: "Kadwa", serif;
+  box-sizing: inherit;
 }
 
 body {
   background-color: #161616;
 }
 
-html {
-  scroll-behavior: smooth;
+@media screen and (max-width: 600px) {
+  .about-me {
+    height: 100vh;
+  }
+  .about-me .right {
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 75% 30%;
+  }
+  .about-me .center p {
+    font-size: 0.8rem !important;
+    padding: 0.5em;
+  }
+  .portofolio .left-p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(/asset/pbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .portofolio .right-p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    background: linear-gradient(180deg, rgba(59, 3, 12, 0.4) 0%, #161616 100%);
+  }
+  .portofolio .right-p h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #FF8D29;
+  }
+  .portofolio .right-p p {
+    color: #FF8D29;
+    font-size: 3rem;
+  }
+  .portofolio .right-p button {
+    padding: 0.1em 0.8em;
+    background-color: transparent;
+    border: #FF8D29 solid 2px;
+    border-radius: 10px;
+    color: #FF8D29;
+    margin-top: 5rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  .portofolio .right-p button a {
+    text-decoration: none;
+    color: #FF8D29;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-me {
+    height: 100vh;
+    width: 100vw;
+  }
+  .about-me .right {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 75% 30%;
+  }
+  .about-me .center p {
+    padding: 2em;
+    font-size: 1rem !important;
+  }
+  .about-me .center button {
+    font-size: 1.5rem;
+  }
+  .portofolio {
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+  }
+  .portofolio .left-p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(/asset/pbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .portofolio .right-p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    background: linear-gradient(180deg, rgba(59, 3, 12, 0.4) 0%, #161616 100%);
+  }
+  .portofolio .right-p h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #FF8D29;
+  }
+  .portofolio .right-p p {
+    color: #FF8D29;
+    font-size: 3rem;
+  }
+  .portofolio .right-p button {
+    padding: 0.1em 0.8em;
+    background-color: transparent;
+    border: #FF8D29 solid 2px;
+    border-radius: 10px;
+    color: #FF8D29;
+    margin-top: 5rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  .portofolio .right-p button a {
+    text-decoration: none;
+    color: #FF8D29;
+  }
 }/*# sourceMappingURL=index.css.map */
