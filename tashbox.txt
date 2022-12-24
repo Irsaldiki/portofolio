@@ -1,0 +1,27 @@
+    <!-- <div class="portofolio" id="portofolio">
+        <div class="left-p"> -->
+    <!-- <div class="center-p desc-p">
+            </div> -->
+    <!-- </div>
+        <div class="right-p">
+            <div class="center-p">
+                <h1>Portofolio</h1>
+                <p>Showcase of my <br>projects</p>
+                <button><a href="/portofolio.html">MY PORTOFOLIO</a></button>
+            </div>
+        </div>
+    </div> -->
+    <!-- <section class="container-fluid portofolio">
+        <div class="row">
+            <div class="col-lg left-p">
+
+            </div>
+            <div class="col-lg right-p d-flex justify-content-center align-items-center">
+                <div class="">
+                    <h1>Portofolio</h1>
+                    <p>Showcase of my <br>projects</p> -->
+                    <!-- <button><a href="portofolio.html">MY PORTOFOLIO</a></button> -->
+                <!-- </div>
+            </div>
+        </div>
+    </section> -->

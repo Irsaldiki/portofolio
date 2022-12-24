@@ -32,7 +32,7 @@
 .about-me {
   position: relative;
   box-sizing: border-box;
-  height: 70vh;
+  height: 90vh;
   width: 100%;
   background-color: #161616;
 }
@@ -42,6 +42,43 @@
   height: 100%;
   left: 0;
   top: 0;
+}
+.about-me .left .skill {
+  color: #FF8D29;
+  margin-left: 2em;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 594px;
+  height: 102px;
+}
+.about-me .left .skill .item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 61px;
+  width: 594px;
+  height: 50px;
+}
+.about-me .left .skill .item .iskill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  gap: 10px;
+  width: 174px;
+  height: 50px;
+  border: 1px solid #E27E27;
+  border-radius: 15px;
+}
+.about-me .left a {
+  text-decoration: none;
+  color: #FF8D29;
 }
 .about-me .right {
   position: absolute;
@@ -107,20 +144,6 @@
 .portofolio p {
   color: #FF8D29;
   font-size: 2rem;
-}
-.portofolio button {
-  padding: 0.1em 0.8em;
-  background-color: transparent;
-  border: #FF8D29 solid 2px;
-  border-radius: 10px;
-  color: #FF8D29;
-  margin-top: 5rem;
-  cursor: pointer;
-  font-size: large;
-}
-.portofolio button a {
-  text-decoration: none;
-  color: #FF8D29;
 }
 
 .certificate {
@@ -224,6 +247,7 @@ html {
 
 body {
   background-color: #161616;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 400px) {
