@@ -40,7 +40,7 @@
 .about-me {
     position: relative;
     box-sizing: border-box;
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     background-color: #161616;
 
@@ -50,6 +50,53 @@
         height: 100%;
         left: 0;
         top: 0;
+
+        .skill {
+            color: #FF8D29;
+            margin-left: 2em;
+            margin-top: 10em;
+
+            .item {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 61px;
+
+                width: 594px;
+                height: 50px;
+
+                .iskill {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px 15px;
+                    gap: 10px;
+
+                    width: 174px;
+                    height: 50px;
+
+                    border: 1px solid #E27E27;
+                    border-radius: 15px;
+                }
+            }
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 12px;
+
+            width: 594px;
+            height: 102px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FF8D29;
+
+        }
     }
 
     .right {
@@ -113,6 +160,7 @@
 
 .portofolio {
     height: 90vh;
+
     .left-p {
         height: 90vh;
         background-image: url(../asset/pbg.png);
@@ -125,12 +173,12 @@
         height: 90vh;
     }
 
-        h1 {
-            font-size: 5rem;
-            font-weight: 400;
-            color: #161616;
+    h1 {
+        font-size: 5rem;
+        font-weight: 400;
+        color: #161616;
 
-        }
+    }
 
     p {
         // text-align: center;
@@ -140,22 +188,22 @@
         // padding: 3em;
     }
 
-    button {
-        padding: .1em .8em;
-        background-color: transparent;
-        border: #FF8D29 solid 2px;
-        border-radius: 10px;
-        color: #FF8D29;
-        margin-top: 5rem;
-        // text-align: center;
-        cursor: pointer;
-        font-size: large;
+    // button {
+    //     padding: .1em .8em;
+    //     background-color: transparent;
+    //     border: #FF8D29 solid 2px;
+    //     border-radius: 10px;
+    //     color: #FF8D29;
+    //     margin-top: 5rem;
+    //     // text-align: center;
+    //     cursor: pointer;
+    //     font-size: large;
 
-        a {
-            text-decoration: none;
-            color: #FF8D29;
-        }
-    }
+    //     a {
+    //         text-decoration: none;
+    //         color: #FF8D29;
+    //     }
+    // }
 }
 
 .certificate {
@@ -341,10 +389,13 @@ html {
     margin: 0;
     font-family: 'Kadwa', serif;
     box-sizing: inherit;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
 }
 
 body {
     background-color: #161616;
+    overflow-x: hidden;
 }
 
 // media responsive 400max
@@ -363,13 +414,14 @@ body {
 
         .left {
 
-            .center{
-                
+            .center {
+
                 p {
                     font-size: .8rem !important;
                     padding: .8em !important;
                 }
-                button{
+
+                button {
                     font-size: .8rem !important;
                 }
             }
@@ -404,6 +456,7 @@ body {
             text-align: center;
             top: 0;
             background: linear-gradient(180deg, rgba(59, 3, 12, 0.4) 0%, #161616 100%);
+
             h1 {
                 // text-align: center;
                 font-size: 4rem !important;
@@ -438,7 +491,7 @@ body {
             }
         }
 
-               // .desc-p{
+        // .desc-p{
         //     padding-top:20%;
         // }
     }
@@ -495,6 +548,7 @@ body {
             text-align: center;
             top: 0;
             background: linear-gradient(180deg, rgba(59, 3, 12, 0.4) 0%, #161616 100%);
+
             h1 {
                 // text-align: center;
                 font-size: 5rem;
@@ -529,11 +583,12 @@ body {
             }
         }
 
-               // .desc-p{
+        // .desc-p{
         //     padding-top:20%;
         // }
     }
 }
+
 // media responsive 1000max
 @media screen and (max-width: 1000px) {
     .about-me {
@@ -590,6 +645,7 @@ body {
             text-align: center;
             top: 0;
             background: linear-gradient(180deg, rgba(59, 3, 12, 0.4) 0%, #161616 100%);
+
             h1 {
                 // text-align: center;
                 font-size: 5rem;
@@ -623,6 +679,7 @@ body {
                 }
             }
         }
+
         // .desc-p{
         //     padding-top:20%;
         // }
