@@ -45,8 +45,7 @@
 }
 .about-me .left .skill {
   color: #FF8D29;
-  margin-left: 2em;
-  margin-top: 10em;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -65,12 +64,6 @@
   height: 50px;
 }
 .about-me .left .skill .item .iskill {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 15px;
-  gap: 10px;
   width: 174px;
   height: 50px;
   border: 1px solid #E27E27;
